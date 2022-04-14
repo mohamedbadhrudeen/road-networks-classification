@@ -11,7 +11,8 @@ import csv
 import seaborn as sns
 
 np.set_printoptions(suppress=True, precision=5, linewidth=150)
- 
+
+#Make sure you have all your 80 csv files and this .py file in the same folder
 files_names = glob.glob("*.csv")
 cities_name=[]
 #Percentile values (bins)
